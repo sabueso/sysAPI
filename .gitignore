@@ -1,0 +1,76 @@
+*.sqlite
+*.sqlite3
+*.swp
+
+# https://github.com/github/gitignore/blob/master/Python.gitignore
+
+# Custom
+tmp/
+media/
+.DS_store
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+#In order to avoid tracking os some Js lib vendor files
+#[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+[Ss]hare
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+
+
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+pip-cache
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# Markdown auto-generated HTML
+.*html
+
+# R
+.Rhistory
+
+# Vim swap
+*.swp
